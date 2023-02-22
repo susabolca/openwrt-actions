@@ -12,8 +12,10 @@ on:
         default: 'xiaomi-r1c'
 
 jobs:
-  runs-on: ubuntu-20.04
-  steps:
-    - run: |
-      echo "branch : $BRANCH"
-      echo "target : $TARGET"
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: 'show setting.'
+      - run: |
+        echo "branch : $BRANCH"
+        echo "target : $TARGET"
