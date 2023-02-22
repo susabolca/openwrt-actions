@@ -19,3 +19,6 @@ jobs:
         run: |
           echo "branch : $BRANCH"
           echo "target : $TARGET"
+        env:
+          BRANCH: ${{ inputs.branch }}
+          TARGET: ${{ inputs.target }}
