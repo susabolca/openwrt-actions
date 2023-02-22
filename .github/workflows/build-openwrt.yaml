@@ -11,7 +11,7 @@ on:
 
 env:
   REPO_URL: https://github.com/susabolca/openwrt
-  REPO_BRANCH: master
+  REPO_BRANCH: openwrt-21.02 
   FEEDS_CONF: feeds.conf
   CONFIG_FILE: config
   DIY_P1_SH: build-pre.sh
