@@ -16,6 +16,6 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: 'show setting.'
-      - run: |
-        echo "branch : $BRANCH"
-        echo "target : $TARGET"
+        run: |
+          echo "branch : $BRANCH"
+          echo "target : $TARGET"
